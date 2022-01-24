@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La imatge de la música</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 32px;
+        }
+        img{
+            width: 100%;
+            height: auto;
+        }
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: var(--taronja);
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        :root{
+            --groc:#fffd77;
+            --roig:#ff5739;
+            --beige: #ffe5d4;
+            --taronja: #ffa825;
+        }
+        .container{
+            padding: 0 2em;
+        }
+        body>header{
+            display: flex;
+            padding: 50px 0;
+            text-align: center;
+            height: 100vh;
+            background-color: var(--beige);
+        }
+        h1{
+            font-size: 2.7em;
+            font-family: 'Roboto', sans-serif;
+            color: rgb(255, 250, 242);
+            font-weight: 900
+            
+        }
+        h2{
+            font-size: 1.1em;
+            font-family: 'Andada Pro',100;
+            color:rgb(255, 250, 242);
+        }
+        h3{
+            font-size: 0.5em;
+            font-family: 'Andada Pro', serif;
+        }
+        nav a{
+            font-size: 5mm;
+            color: var(--roig);
+        }
+        section:first-child{
+            height: 100%;
+            background-color: var(--roig);
+            color: var(--beige);
+        }
+        section:last-child{
+            height: 80vh;
+            background-color: var(--taronja);
+            color: var(--roig);
+        }
+        section:first-child .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .cover{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: top center;
+            flex-grow: 1;
+            width: 300px;
+            min-width: 300px;
+            min-height: 300px;
+            height: 300px;
+            padding: 0.5em;
+            margin: 0.5em;
+            flex-wrap: wrap;
+            background-color: var(--beige);
+        }
+        .cover h3{
+            font-size: 1em;
+            font-family: 'Andada Pro', serif;
+            color: var(--beige);
+            justify-content: center;
+            align-items: center;
+        }
+        .cover header{
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+        }
+        .cover .cover_img img{
+            flex-grow: 1;
+            object-fit: cover;
+            object-position: center;
+        }
+        .cover .cover_img{
+            display: flex;
+            width:100%;
+            max-height:200px;
+            background: coral;
+            flex-grow: 1;
+        }
+        footer{
+            height: 50vh;
+            background-color: var(--groc);
+            color: var(--roig);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <hgroup>
+                <h1>Los diseñadores urbanos</h1>
+                <h2>Los mejores diseñadores de moda urbana del planeta</h2>
+            </hgroup>
+            <nav>
+                <a href="#covers">covers</a>
+                <a href="#designers">designers</a>
+                <a href="#social network">social networks</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+            <section id="#covers">
+                <h3>covers</h3>
+                <div class="container">
+                    <div class="cover">
+                        <div class="cover_img">
+                            <img src="img/brand/2.jpg" alt="">
+                        </div>
+                        <header>
+                            <h3>Travis Scott</h3>
+                        </header>
+                    </div>
+                    <div class="cover">
+                        <div class="cover_img">
+                            <img src="img/brand/1.jpg" alt="">
+                        </div>
+                        <header>
+                            <h3>Virgil</h3>
+                        </header>
+                    </div>
+                    <div class="cover">
+                        <div class="cover_img">
+                            <img src="img/brand/3.jpg" alt="">
+                        </div>
+                        <header>
+                            <h3>Kanye West</h3>
+                        </header>
+                    </div>
+                    <div class="cover">
+                        <div class="cover_img">
+                            <img src="img/brand/4.jpg" alt="">
+                        </div>
+                        <header>
+                            <h3>Kanye West</h3>
+                        </header>
+                    </div>
+                    <div class="cover">
+                        <div class="cover_img">
+                            <img src="img/brand/5.jpg" alt="">
+                        </div>
+                        <header>
+                            <h3>Drake</h3>
+                        </header>
+                    </div>
+                    <div class="cover">
+                        <div class="cover_img">
+                            <img src="img/brand/6.jpg" alt="">
+                        </div>
+                        <header>
+                            <h3>Drake</h3>
+                        </header>
+                    </div>
+                    <div class="cover">
+                        <div class="cover_img">
+                            <img src="img/brand/7.jpg" alt="">
+                        </div>
+                        <header>
+                            <h3>Drake</h3>
+                        </header>
+                    </div>
+                    <div class="cover">
+                        <div class="cover_img">
+                            <img src="img/brand/8.jpg" alt="">
+                        </div>
+                        <header>
+                            <h3>Drake</h3>
+                        </header>
+                    </div>
+                    <div class="cover">
+                        <div class="cover_img">
+                            <img src="img/brand/9.jpg" alt="">
+                        </div>
+                        <header>
+                            <h3>Drake</h3>
+                        </header>
+                    </div>
+                    <div class="cover">
+                        <div class="cover_img">
+                            <img src="img/brand/10.jpg" alt="">
+                        </div>
+                        <header>
+                            <h3>Drake</h3>
+                        </header>
+                    </div>
+                    
+            </section>
+            <section id="#designers">
+                <h3>designers</h3>
+                <div class="container">
+                    <div class="card_dissenyadors"></div>
+                        <div class="disenyadors_img"></div>
+                </div>
+            </section>
+        
+    </main>
+    <footer id="#social nedwork">
+            <h3>social nedwork</h3>
+            <div class="container">
+
+            </div>
+    </footer>
+</body>
+</html>
